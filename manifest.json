@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Preenchimento PSP",
+    "version": "1.0",
+    "description": "Auto preenchimento do formulário de anuência do PSP.",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "https://concentrador.portosempapel.gov.br/PSP-CDP/private/cdp/pages/*"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "./popup/config.html",
+        "default_icon": "./images/psp_ico.png"
+    },
+    "icons": { "16": "./images/psp_ico_16.png",
+           "48": "./images/psp_ico_48.png",
+          "128": "./images/psp_ico_128.png" },
+    "permissions": [
+        "storage"
+    ]
+}

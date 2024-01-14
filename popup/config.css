@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+td {
+    white-space: nowrap;
+    padding: 5px;
+    font-weight: 700;
+    font-size: smaller;
+}
+
+.tit {
+    font-weight: 800;
+    color: #B6AD84;
+    font-size: 1rem;
+}
+
+.tab {
+    border: 1px solid #B6AD84;
+}
+
+.center {
+    text-align: center;
+}
+
+.salvar {
+    text-align: right;
+}
+
+#salvar{
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+#ok {
+    color: green;
+    font-weight: 800;
+    text-align: left;
+}
