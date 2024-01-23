@@ -79,7 +79,6 @@ async function esperaFormAnuencia() {
     let nomeAgencia = document.querySelector(
       "#_documentoUnico\\:_nomeAgenciaResponsavel"
     ).value;
-    nomeAgencia = nomeAgencia && nomeAgencia.split(" ")[0];
 
     inputNomePasseEntrada.value = nomeAgencia && nomeAgencia;
     document.querySelector("#_documentoUnico\\:_nomeAgenteEntradaPF").value =
